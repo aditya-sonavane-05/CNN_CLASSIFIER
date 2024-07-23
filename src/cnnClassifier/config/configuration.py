@@ -3,7 +3,7 @@ from src.cnnClassifier.utils.common import read_yaml, create_directories
 from src.cnnClassifier.constants import *
 from pathlib import Path
 import os
-from cnnClassifier.entity import (DataIngestionConfig,PrepareBaseModelConfig)
+from cnnClassifier.entity import (DataIngestionConfig,PrepareBaseModelConfig,PrepareCallbacksConfig)
 class ConfigurationManager:
     def __init__(
         self,
